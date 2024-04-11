@@ -1,0 +1,20 @@
+*{
+    font-family: 'Gotham';
+}
+
+:root{
+
+    --green: #1db954;
+    --lightgreen : #1ed760;
+    --white : #fff;
+    --black : #191414;   
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url(../layout/Fonte/GothamMedium_1.ttf);
+}
+
+#bodyA{
+    height: 90vh;
+}
