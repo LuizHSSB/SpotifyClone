@@ -8,6 +8,8 @@
     --lightgreen : #1ed760;
     --white : #fff;
     --black : #191414;   
+    --grey : #282828;
+    --lightgrey : #A9A9A9;
 }
 
 @font-face {
@@ -15,6 +17,58 @@
     src: url(../layout/Fonte/GothamMedium_1.ttf);
 }
 
-#bodyA{
+.text-lightgrey2{
+    color: var(--lightgrey );
+}
+
+.bg-grey{
+    background-color: var(--grey );
+}
+
+.h10vh{
+    height: 10vh;
+}
+
+.h90vh{
     height: 90vh;
+}
+
+.gap-6{
+    gap: 4rem;
+}
+.gap-7{
+    gap: 5rem;
+}
+.gap-8{
+    gap: 6rem;
+}
+.gap-9{
+    gap: 7rem;
+}
+
+.gap-10{
+    gap: 8rem;
+}
+
+.gap-11{
+    gap: 9rem;
+}
+
+.degrade1{
+    background: rgb(89,45,68);
+    background: linear-gradient(181deg, rgba(89,45,68,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.degrade1-1{
+    background: rgb(51,26,39);
+    background: linear-gradient(181deg, rgba(51,26,39,1) 0%, rgba(0,0,0,1) 100%);
+}
+.degrade2{
+
+}
+.degrade3{
+
+}
+.degrade4{
+
 }
